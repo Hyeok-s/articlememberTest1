@@ -15,6 +15,7 @@
 			<button type="button" onClick="checkEmail()">중복확인</button>
 			비밀번호: <input type="password" name="pw" maxlength="17" required/>
 			비밀번호 확인: <input type="password" name="pwChk" maxlength="17" required/>
+			8자 이상이어야 하며, 영문 대소문자 및 숫자를 포함해야 합니다.
 			이름: <input type="text" name="name" maxlength="5" required/>
 			<button type="submit">가입하기</button>				
 		</form>
